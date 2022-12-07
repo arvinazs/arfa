@@ -99,7 +99,9 @@ export const data = {
 };
 
 const Chart = () => {
-  return <Bar options={options} data={data} />;
+  return <div className='chart'>
+    <Bar options={options} data={data} />
+  </div>;
 }
 
 export default Chart;
